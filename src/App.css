@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
+  
 }
-
+input{
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  display: block;
+  margin: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +18,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.col{
+  padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #bbeffd;
+    border: 1px solid #61dafb;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +46,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nopadding{
+  padding: 0px;
+}
+.btn_font{
+  font-size: 30px;
+}
+.history-btn{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none !important;
+  margin-left: 10px;
+}
+.clear-button{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none !important;
+}
+.array-btn{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: none !important;
+}
+.row{
+  margin-top: 5px;
+}
+.normal-input{
+  width: 100%;
+  margin: 10px;
+  margin-left: 0px;
+}
+.array-input{
+  width: 100%;
+  margin: 10px;
+  margin-left: 0px;
+
+}
+.array-input-hide{
+display: none !important;
+}
+.array-input-show{
+display: block !important;
 }
